@@ -1,3 +1,5 @@
+## 一、工程创建
+
 1.在建立工程之前，我们在电脑的某个目录下面建立一个文件夹，名字为 Template.
 
 2.在文件夹中创建文件夹
@@ -28,7 +30,11 @@ User 用于保存项目文件。
 
 
 
+## 二、添加串口
 
+ 1.如果重定位printf的话，需在keil中勾选Use MicroLIB
 
+![image-20231201111525429](C:\Users\lierp\AppData\Roaming\Typora\typora-user-images\image-20231201111525429.png)
 
+2.串口要打印中文的话，需要用ANSI编码格式
 

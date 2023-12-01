@@ -188,7 +188,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Libraries\CMSIS;..\Libraries\STM32F10x_Driver\inc;..\User;..\User\led</IncludePath>
+              <IncludePath>..\Libraries\CMSIS;..\Libraries\STM32F10x_Driver\inc;..\User;..\User\led;..\User\usart</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -396,6 +396,11 @@
               <FileName>bsp_led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\led\bsp_led.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\usart\bsp_usart.c</FilePath>
             </File>
           </Files>
         </Group>

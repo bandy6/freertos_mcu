@@ -28,10 +28,6 @@
   * @{
   */
 
-/** @addtogroup GPIO_IOToggle
-  * @{
-  */
-
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
@@ -140,12 +136,6 @@ void SysTick_Handler(void)
 {
 }
 
-/******************************************************************************/
-/*                 STM32F10x Peripherals Interrupt Handlers                   */
-/*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
-/*  available peripheral interrupt handler's name please refer to the startup */
-/*  file (startup_stm32f10x_xx.s).                                            */
-/******************************************************************************/
 
 /**
   * @brief  This function handles PPP interrupt request.
@@ -160,8 +150,5 @@ void SysTick_Handler(void)
   * @}
   */
 
-/**
-  * @}
-  */
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
